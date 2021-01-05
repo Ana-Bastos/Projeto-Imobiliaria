@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<title> Projeto-Imobiliaria </title>
+	<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amiri:400,400i" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="style-imobiliaria.css" />
+</head>
+
+<body>
+	<!-- menu -->
+	<menu id="menu">
+		<!-- Logo -->
+		<div class="container-logo">
+			<img src="Imagens/logo.png" />
+		</div>
+		<!-- Menu link -->
+		<div class="container-menu">
+			<a href="Projeto-Imobiliaria.html">Home</a>
+			<a href="vendas.html"> Vendas </a>
+			<a href="aluguel.html"> Aluguel </a>
+			<a href="contato.html"> Contato </a>
+		</div>
+	</menu>
+	<!-- main -->
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="carousel_sty" src="./Imagens/exemplo_1.jpg"
+					alt="Primeiro Slide">
+			</div>
+			<div class="carousel-item">
+				<img class="carousel_sty" src="./Imagens/exemplo_2.jpg"
+					alt="Segundo Slide">
+			</div>
+			<div class="carousel-item">
+				<img class="carousel_sty" src="./Imagens/exemplo_3.jpg"
+					alt="Terceiro Slide">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Anterior</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Próximo</span>
+		</a>
+	</div>
+	<main id="main">
+		<div class="container-formulario">
+			<form action="#">
+				<!-- Local que o morador procura -->
+				<input placeholder="Onde voce gostaria de morar?" type="text" class="texto-principal" name="local" />
+				<br>
+				<!-- Contem todos os inputs do formulario -->
+				<div class="container-inputs">
+					<div class="fields">
+						<b>Tipo de imovel</b>
+						<!-- Tipo de Imóvel -->
+						<div id="labelTipoDeImovel">
+							<label><input type="radio" name="tipodeImovel" value=" Apartamento"> Apartamento</label>
+							<label><input type="radio" name="tipodeImovel" value=" Casa"> Casa</label>
+							<label><input type="radio" name="tipodeImovel" value=" Condominio"> Condominio</label>
+						</div>
+						<!-- Número de Quarto -->
+						<b>Nº de quartos</b>
+						<div id="labelNumDeQuarto">
+							<label><input type="radio" name="ndeQuarto" value=" 1"> 1</label>
+							<label><input type="radio" name="ndeQuarto" value=" 2"> 2</label>
+							<label><input type="radio" name="ndeQuarto" value=" 3"> 3</label>
+							<label><input type="radio" name="ndeQuarto" value=" +3"> +3</label>
+						</div>
+						<!-- aluguel ou venda -->
+						<b>O que você gostaria de fazer?</b>
+						<div id="labelaluguelouvenda">
+							<label class="aluguelouvenda"><input type="radio" name="aluguelouvenda" value=" Aluguel">
+								Aluguel</label>
+							<label class="aluguelouvenda"><input type="radio" name="aluguelouvenda" value=" Venda">
+								Venda</label>
+						</div>
+						<button class="enviar" type="submit"> Enviar </button>
+					</div>
+				</div>
+			</form>
+		</div>	
+	</main>
+	<!-- footer -->
+	<footer id="footer">
+		<!-- Endereço -->
+		<div class="container-endereço">
+			<p> <span>Endereço: </span>Rua Santos Dumont, 36 - Centro, Florianópolis - SC <span>CEP: </span> 88010-540
+			</p>
+			<p> <span>Email: </span>imobiliariadreamaway@gmail.com</p>
+			<p> <span>Tel: </span>48946465119</p>
+		</div>
+		<!-- Redes Sociais -->
+		<div class="container-redesocial">
+			<a target="_new" href="https://twitter.com/login?lang=pt"> <img src="Imagens/rede1.jpg" /> </a>
+			<a target="_new" href="https://pt-br.facebook.com/"> <img src="Imagens/rede2.jpg" /> </a>
+			<a target="_new" href="https://pt-br.facebook.com/"> <img src="Imagens/rede3.png" /> </a>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,361 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+
+body {
+	background-color: #d2ddef;
+}
+
+/* Menu */
+
+#menu {
+	height: 88px;
+	background-color: #3d4044;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container-logo img {
+	height: 88px;
+	width: 164px;
+	align-self: center;
+	margin-left: 224px;
+}
+
+.container-menu {
+	display: flex;
+	align-self: center;
+	margin-right: 120px;
+}
+
+.container-menu a {
+	color: white;
+	text-decoration: none;
+	padding: 20px 10px;
+	font-size: 24px;
+	transition: background-color 0.5s, color 0.5s;
+}
+
+a:hover {
+	background-color: #b3b0b0;
+	color: Black;
+	
+}
+
+.enviar{
+	background-color:#b3b0b0; 
+	padding: 12px;
+}
+
+/* End Menu */
+
+/* Home Page */
+
+.carousel_sty {
+	width: 100%;
+	object-fit: contain;
+	height: 500px;
+	margin: 12px;
+}
+
+.container-formulario {
+	display: flex;
+	justify-content: center;
+	height: 448px;
+	align-items: center;
+}
+
+.fields {
+	width: 420px;
+	margin: 0 auto;
+	padding: 16px 8px;
+}
+
+.fields b {
+	display: flex;
+	justify-content: center;
+	font-weight: 700;
+}
+
+#labelTipoDeImovel {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 16px 0;
+	font-style: italic;
+	font-family: 'Amiri', serif;
+}
+
+#labelNumDeQuarto {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 16px 0;
+	font-style: italic;
+	font-family: 'Amiri', serif;
+}
+
+#labelaluguelouvenda {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 16px 0;
+	font-style: italic;
+	font-family: 'Amiri', serif;
+}
+
+.enviar {
+	padding: 8px;
+	font-weight: 700;
+	display: flex;
+	margin: 0 auto;
+}
+
+/* End Home Page */
+
+/* Pagina Aluguel e Vendas */
+
+.texto-principal {
+	border: 1px solid gray;
+	padding: 8px;
+	width: 480px;
+	height: 32px;
+}
+
+.blocos {
+	width: 100%;
+	margin: 32px 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.imovel-opcao {
+	width: 360px;
+	height: 524px;
+	display: inline-block;
+	background-color: white;
+	padding-bottom: 16px;
+	border-radius: 8px;
+}
+
+.imovel-opcao img {
+	height: 70%;
+	border-radius: 8px 8px 0 0;
+}
+
+.fonte-no-card h5, .fonte-no-card p {
+	font-family: 'Amiri', serif;
+	font-weight: 700;
+}
+
+.fonte-no-card h6 {
+	font-style: italic;
+	font-family: 'Amiri', serif;
+}
+
+.botoes {
+	display: inline-block;
+}
+
+/* End Pagina Aluguel e Vendas */
+/* Pagina Detalhes */
+.carousel_sty_2{
+	width: 100%;
+	object-fit: contain;
+}
+.pgDetalhes{
+	display: flex;
+	margin: 16px;
+}
+.direita{
+	width: 50%;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.esquerda{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+li{
+	list-style-type: none;
+	margin: 16px 8px;
+}
+li ul{
+	border: 1px solid transparent;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+li ul b{
+	color:#164084;
+	font-family: 'Amiri', serif;
+}
+li ul p{
+	font-family: 'Amiri', serif;
+}
+.informacaoApartamento{
+	display: flex;
+	flex-direction: column;
+	font-family: 
+	
+}
+.valorApartamento{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.valorApartamento button{
+	padding: 8px;
+	background-color: #b3b0b0;
+}
+.mapaEndereço{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 16px;
+}
+.mapaEndereço iframe {
+	border:2px solid black;
+}
+/* End Pagina Detalhes */
+
+/* Pagina de Contato */
+
+.contato h2 {
+	margin: 24px 0 24px 164px;
+}
+
+.container_contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+label {
+	display: flex;
+	justify-content: space-between;
+	padding: 12px;
+}
+
+.nomeContato {
+	width: 640px;
+	height: 32px;
+	margin: 0 0 0 12px;
+	border: 1px solid black;
+}
+
+.telefoneContato {
+	width: 640px;
+	height: 32px;
+	margin: 0 0 0 12px;
+	border: 1px solid black;
+}
+
+.mensagemContato {
+	margin: 0 0 0 12px;
+	padding: 12px;
+	width: 640px;
+	border: 1px solid black;
+}
+
+.botao-enviar {
+	display: flex;
+	justify-content: center;
+}
+
+.Enviar-msg {
+	padding: 12px;
+}
+
+.endereco-lojas {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.loja {
+	width: 25%;
+}
+
+.loja img {
+	margin: 0 8px;
+}
+
+/* End Pagina de Contato */
+
+/* Pagina Mensagem Enviada e visita Agendada */
+
+.main{
+	height:360px;
+}
+.mensagem_agendamento {
+	background-color: #fff;
+	margin: 50px 20px;
+	padding: 25px;
+	border-radius: 12px;
+}
+
+.container_titulo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.container_titulo img {
+	width: 100px;
+	height: 100px;
+}
+
+.mensagem_agendamento p {
+	margin: 8px;
+}
+
+/* End Pagina Mensagem Agendada */
+/* Pagina Mais detalhes */
+
+/* End Pagina mais detalhes */
+/* Footer */
+
+#footer {
+	height: 120px;
+	background-color: #3d4044;
+	display: flex;
+	justify-content: space-between;
+}
+
+span {
+	font-weight: 900;
+}
+
+.container-endereço {
+	padding-left: 30px;
+	color: white;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.container-endereço p {
+	margin: 0;
+}
+
+.container-redesocial {
+	width: 240px;
+	display: flex;
+	justify-content: space-around;
+	align-self: center;
+}
+
+.container-redesocial img {
+	height: 64px;
+	width: 64px;
+	border-radius: 10px;
+}
+
+/* End Footer */

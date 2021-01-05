@@ -1,0 +1,26 @@
+PROJETO IMOBILIARIA
+
+Home 
+
+Pagina de vendas 
+	Opcoes de imoveis para venda
+
+Pagina de aluguel
+	Opcoes de imoveis para aluguel
+
+Pagina de detalhes
+	caracteristicar do apartamento (cod do imovel, qtd de quartos, qtd de banheiros, metragem)
+	caracterizacao da area
+	carrosel com mais opcoes 
+	agendamento para visita
+
+Contato
+	Nome completo
+	email
+	mensagem 
+
+Footer
+	Endereço
+	Mapa
+	redes sociais
+	Telefone
